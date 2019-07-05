@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.27)  19 JUN 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.27)  5 JUL 2019 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,25 +502,72 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \c@vec@elem=\count141
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 13.
- (./Thesis.aux)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count142
+\c@Blindtext=\count143
+\c@blind@countparstart=\count144
+\blind@countxx=\count145
+\blindtext@numBlindtext=\count146
+\blind@countyy=\count147
+\c@blindlist=\count148
+\c@blindlistlevel=\count149
+\c@blindlist@level=\count150
+\blind@listitem=\count151
+\c@blind@listcount=\count152
+\c@blind@levelcount=\count153
+\blind@mathformula=\count154
+\blind@Mathformula=\count155
+\c@blind@randomcount=\count156
+\c@blind@randommax=\count157
+\c@blind@pangramcount=\count158
+\c@blind@pangrammax=\count159
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip76
+\enit@outerparindent=\dimen152
+\enit@toks=\toks32
+\enit@inbox=\box35
+\enitdp@description=\count160
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -535,41 +582,32 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen152
-\scratchbox=\box35
-\nofMPsegments=\count143
-\nofMParguments=\count144
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen153
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count161
+\scratchdimen=\dimen153
+\scratchbox=\box36
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen154
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks34
 )
-\c@lstlisting=\count148
-\AtBeginShipoutBox=\box36
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 16.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+\c@lstlisting=\count167
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring ON on input line 19.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count149
+\c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
@@ -587,216 +625,128 @@ LaTeX Info: Redefining \nameref on input line 16.
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
  []
 
 [1
 
-] [2
-
 ]
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
-[3
+[2
 
 ]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
+[3
+
+] (./Chapters/Chapter1.tex
+------------------------------------------------------------------------------
+ 0 Introduction
+------------------------------------------------------------------------------
 [4
 
-]
+
+]) (./Chapters/Chapter2.tex [5]
 ------------------------------------------------------------------------------
- Table of Contents
+ 0 Literature Review
 ------------------------------------------------------------------------------
-(./Thesis.toc [5
+[6
 
-
-])
-\tf@toc=\write4
-\openout4 = `Thesis.toc'.
-
- [6]
+]) (./Chapters/Chapter3.tex [7]
 ------------------------------------------------------------------------------
- List of Figures
+ 0 System Analysis and Design
 ------------------------------------------------------------------------------
-(./Thesis.lof)
-\tf@lof=\write5
-\openout5 = `Thesis.lof'.
+[8
 
- [7
-
-
-]
+]) (./Chapters/Chapter4.tex [9]
 ------------------------------------------------------------------------------
- List of Tables
-------------------------------------------------------------------------------
-(./Thesis.lot)
-\tf@lot=\write6
-\openout6 = `Thesis.lot'.
-
- [8
-
-
-]
-------------------------------------------------------------------------------
- Abbreviations
-------------------------------------------------------------------------------
-[9
-
-
-
-]
-------------------------------------------------------------------------------
- Physical Constants
+ 0 Implementation of system
 ------------------------------------------------------------------------------
 [10
 
-
-
-]
+]) (./Chapters/Chapter5.tex [11]
 ------------------------------------------------------------------------------
- Symbols
-------------------------------------------------------------------------------
-[11
-
-
-
-]
-------------------------------------------------------------------------------
- Dedicatory
+ 0 Testing and evaluation
 ------------------------------------------------------------------------------
 [12
 
-] (./Chapters/Chapter1.tex
-Chapter 1.
+]) (./Chapters/Chapter6.tex [13]
 ------------------------------------------------------------------------------
- 1 Introduction
+ 0 Conclusions and Further Work
 ------------------------------------------------------------------------------
-[1
+[14
 
-
-
-]) (./Chapters/Chapter2.tex [2]
-Chapter 2.
+]) (./Appendices/AppendixA.tex [15]
 ------------------------------------------------------------------------------
- 2 Literature Review
+  Project Planning
 ------------------------------------------------------------------------------
-[3
-
-]) (./Chapters/Chapter3.tex [4]
-Chapter 3.
-------------------------------------------------------------------------------
- 3 System Analysis and Design
-------------------------------------------------------------------------------
-[5
-
-]) (./Chapters/Chapter4.tex [6]
-Chapter 4.
-------------------------------------------------------------------------------
- 4 Implementation of system
-------------------------------------------------------------------------------
-[7
-
-]) (./Chapters/Chapter5.tex [8]
-Chapter 5.
-------------------------------------------------------------------------------
- 5 Testing and evaluation
-------------------------------------------------------------------------------
-[9
-
-]) (./Chapters/Chapter6.tex [10]
-Chapter 6.
-------------------------------------------------------------------------------
- 6 Conclusions and Further Work
-------------------------------------------------------------------------------
-[11
-
-]) (./Appendices/AppendixA.tex [12]
-Appendix A.
-------------------------------------------------------------------------------
- A 
-------------------------------------------------------------------------------
-) (./Appendices/AppendixB.tex [13
+) (./Appendices/AppendixB.tex [16
 
 ]
-Appendix B.
 ------------------------------------------------------------------------------
- B 
+  Reflective Learning Journal
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixC.tex [14
+) (./Appendices/AppendixC.tex [17
 
 ]
-Appendix C.
 ------------------------------------------------------------------------------
- C 
+  Code listings
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixD.tex [15
+) (./Appendices/AppendixD.tex [18
 
 ]
-Appendix D.
 ------------------------------------------------------------------------------
- D 
+  
 ------------------------------------------------------------------------------
-) [16
+) [19
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 No file Thesis.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
-
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: 8286548F7DC16D1AE48EF6E53DA249FD;4848
-(rerunfilecheck)             After:  0447096C417C5D22CEA1862402473843;4808.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 9968D647C42BC3C24465E6D416780D9F;4584.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
- 13102 strings out of 492649
- 184861 string characters out of 6129622
- 259875 words of memory out of 5000000
- 16709 multiletter control sequences out of 15000+600000
- 13007 words of font info for 48 fonts, out of 8000000 for 9000
+ 13885 strings out of 492649
+ 196075 string characters out of 6129622
+ 278972 words of memory out of 5000000
+ 17515 multiletter control sequences out of 15000+600000
+ 12610 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,45p,921b,433s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (29 pages, 186311 bytes).
+ 49i,11n,45p,921b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (20 pages, 130610 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

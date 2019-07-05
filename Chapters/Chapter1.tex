@@ -1,16 +1,35 @@
 \chapter{Introduction}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at pulvinar nisi. Phasellus hendrerit, diam placerat interdum iaculis, mauris justo cursus risus, in viverra purus eros at ligula. Ut metus justo, consequat a tristique posuere, laoreet nec nibh. Etiam et scelerisque mauris. Phasellus vel massa magna. Ut non neque id tortor pharetra bibendum vitae sit amet nisi. Duis nec quam quam, sed euismod justo. Pellentesque eu tellus vitae ante tempus malesuada. Nunc accumsan, quam in congue consequat, lectus lectus dapibus erat, id aliquet urna neque at massa. Nulla facilisi. Morbi ullamcorper eleifend posuere. Donec libero leo, faucibus nec bibendum at, mattis et urna. Proin consectetur, nunc ut imperdiet lobortis, magna neque tincidunt lectus, id iaculis nisi justo id nibh. Pellentesque vel sem in erat vulputate faucibus molestie ut lorem.
+The idea of the project is creating an application which manager repair services for vehicles, motorbikes, vans, and small buses. It should be available for Android devices which can be tablets or smartphones only. The customers should be able to booking any services, consult theirs last books and save theirs vehicle information for future services as well. The requirements are annual service, major service, repair or fault and major repair.
 
-\section{A Section}
+\begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
+\item [Annual Service] This pack include engine, fuel, drive system, electrical,and  exhaust. 
+\item [Major Service] This pack include drive system and electrical.
+\item [Repair/ Fault] This pack include bodywork repair.
+\item [Major Repair] This pack include bodywork repair, engine, and internal and vision.
+\end{description}
 
-Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turpis, blandit non imperdiet aliquet, blandit et felis. In lorem nisi, pretium sit amet vestibulum sed, tempus et sem. Proin non ante turpis. Nulla imperdiet fringilla convallis. Vivamus vel bibendum nisl. Pellentesque justo lectus, molestie vel luctus sed, lobortis in libero. Nulla facilisi. Aliquam erat volutpat. Suspendisse vitae nunc nunc. Sed aliquet est suscipit sapien rhoncus non adipiscing nibh consequat. Aliquam metus urna, faucibus eu vulputate non, luctus eu justo.
 
-\subsection{A Subsection}
+\section{Requires Knowledge}
 
-Donec urna leo, vulputate vitae porta eu, vehicula blandit libero. Phasellus eget massa et leo condimentum mollis. Nullam molestie, justo at pellentesque vulputate, sapien velit ornare diam, nec gravida lacus augue non diam. Integer mattis lacus id libero ultrices sit amet mollis neque molestie. Integer ut leo eget mi volutpat congue. Vivamus sodales, turpis id venenatis placerat, tellus purus adipiscing magna, eu aliquam nibh dolor id nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus convallis quam nec vehicula. Sed vulputate neque eget odio fringilla ac sodales urna feugiat.
+The project is divided into three parts. It's the client application, the administrator application and a backend service. The sever side will provide and retrieve information through the database. The client application should be responsible to bookings all the services available for the clients and also consult all the latest books on offline mode. The internal application is available only for the staff of garage. The administrator has access  to view bookings for any particular day or weeks, be able to allocate a mechanic to each vehicle and also login on the system. 
 
-\section{Another Section}
+The client/administrator system will be developed with Kotlin language for Android using Android Studio IDE (Integrated Development Environment) and will be tested with device emulator available in Android SDK.
+
+The backend system will be developed with Firebase. It store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime, and remains available when your app goes offline. 
+
+\subsection{Taking advantage of new technology}
+
+Garage app currently, It is a system that supports scalability and management the application modules. To obtain scalability of the project, Firebase Realtime store data as JSON and synchronized in realtime to every connected client, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
+
+The Firebase database was created in response to the limitations of traditional relational database technology. When compared against relational databases, NoSQL databases are more scalable and provide superior performance, and their data model addresses several shortcomings of the relational model.
+
+The Garage app is managing by Module concept. It is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+
+With all those technologies, the system has a very straightforward ability to modularize and scale the database. Today we have similar applications that are using NoSql concept to improve the peformance of database such as bank systems, delivery automation systems etc. 
+
+
+\section{Brief summary}
 
 Phasellus nisi quam, volutpat non ullamcorper eget, congue fringilla leo. Cras et erat et nibh placerat commodo id ornare est. Nulla facilisi. Aenean pulvinar scelerisque eros eget interdum. Nunc pulvinar magna ut felis varius in hendrerit dolor accumsan. Nunc pellentesque magna quis magna bibendum non laoreet erat tincidunt. Nulla facilisi.
 
