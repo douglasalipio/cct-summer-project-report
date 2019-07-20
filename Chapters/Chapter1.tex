@@ -3,33 +3,35 @@
 The idea of the project is creating an application which manager repair services for vehicles, motorbikes, vans, and small buses. It should be available for Android devices which can be tablets or smartphones only. The customers should be able to booking any services, consult theirs last books and save theirs vehicle information for future services as well. The requirements are annual service, major service, repair or fault and major repair.
 
 \begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
-\item [Annual Service] This pack include engine, fuel, drive system, electrical,and  exhaust. 
-\item [Major Service] This pack include drive system and electrical.
-\item [Repair/ Fault] This pack include bodywork repair.
-\item [Major Repair] This pack include bodywork repair, engine, and internal and vision.
+\item [Annual Service] Fuel, drive system, electrical,and  exhaust. 
+\item [Major Service] Drive system and electrical.
+\item [Repair/ Fault] Bodywork repair.
+\item [Major Repair] Bodywork repair, engine, and internal and vision.
 \end{description}
 
+In the administrative part, the staff can access the application through a login and see all the schedules allocated to the same done by the system administrator. The staff can also cancel and finalize booking assigned to him. The administrator will be responsible for registering, changing or deleting employees. It is also responsible for allocating employees to a specific appointment made by the client through the client application.
 
-\section{Requires Knowledge}
+For the client part, they need to provide some information to make a booking. The mandatory information for the vehicle is license detail, engine type (diesel, petrol, hybrid, electric). Also, provide service type and day from Monday to Saturday. If the staff cancel a booking for any reason, the client should receive a notification asking to schedule. Lastly, they can log in and log out so customers do not have to fill in the required data every time they want to make an appointment.
+
+\section{Computational areas in the project}
 
 The project is divided into three parts. It's the client application, the administrator application and a backend service. The sever side will provide and retrieve information through the database. The client application should be responsible to bookings all the services available for the clients and also consult all the latest books on offline mode. The internal application is available only for the staff of garage. The administrator has access  to view bookings for any particular day or weeks, be able to allocate a mechanic to each vehicle and also login on the system. 
 
 The client/administrator system will be developed with Kotlin language for Android using Android Studio IDE (Integrated Development Environment) and will be tested with device emulator available in Android SDK.
 
-The backend system will be developed with Firebase. It store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime, and remains available when your app goes offline. 
+The backend system will be developed with Firebase. It store and sync data with our NoSQL cloud database. Data is synced across all clients in realtime, and remains available when your app goes offline.
 
-\subsection{Taking advantage of new technology}
+\subsection{Advantage of using new technologies}
 
-Garage app currently, It is a system that supports scalability and management the application modules. To obtain scalability of the project, Firebase Realtime store data as JSON and synchronized in realtime to every connected client, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
+Garage App currently, It is a system that supports scalability and management the application modules. To obtain scalability of the project, Firebase Realtime \citep{Reference1} store data as JSON and synchronized in realtime to every connected client, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
 
-The Firebase database was created in response to the limitations of traditional relational database technology. When compared against relational databases, NoSQL databases are more scalable and provide superior performance, and their data model addresses several shortcomings of the relational model.
+The Firebase database was created in response to the limitations of traditional relational database technology. When compared against relational databases, NoSQL \citep{Reference2}  databases are more scalable and provide superior performance, and their data model addresses several shortcomings of the relational model.
 
-The Garage app is managing by Module concept. It is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+The Garage App is managing by Module concept. It is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
 
 With all those technologies, the system has a very straightforward ability to modularize and scale the database. Today we have similar applications that are using NoSql concept to improve the peformance of database such as bank systems, delivery automation systems etc. 
 
-
-\section{Brief summary}
+\section{Why this is a good project}
 
 Phasellus nisi quam, volutpat non ullamcorper eget, congue fringilla leo. Cras et erat et nibh placerat commodo id ornare est. Nulla facilisi. Aenean pulvinar scelerisque eros eget interdum. Nunc pulvinar magna ut felis varius in hendrerit dolor accumsan. Nunc pellentesque magna quis magna bibendum non laoreet erat tincidunt. Nulla facilisi.
 

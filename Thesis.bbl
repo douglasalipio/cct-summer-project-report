@@ -1,0 +1,23 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hassanein(1998)]{Reference1}
+Sarah H. Kamal. Hanan H. Elazhary. Ehab~E. Hassanein.
+\newblock A qualitative comparison of nosql data stores.
+\newblock \emph{(IJACSA) International Journal of Advanced Computer Science and
+  Applications,}, 10\penalty0 (2), February 1998.
+\newblock URL
+  \url{https://thesai.org/Downloads/Volume10No2/Paper_44-A_Qualitative_Comparison_of_NoSQL_Data.pdf}.
+
+\bibitem[Farrugia(2011)]{Reference2}
+Ross Farrugia.
+\newblock Modular programming - some lessons learned and benefits gained.
+\newblock \penalty0 (1):\penalty0 1--6, January 2011.
+\newblock URL
+  \url{https://www.phusewiki.org/docs/2011%20Papers/RG01%20paper.pdf}.
+
+\end{thebibliography}

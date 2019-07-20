@@ -156,8 +156,8 @@
                 {COLLEGE OF COMPUTING TECHNOLOGY}}
                 {COLLEGE OF COMPUTING TECHNOLOGY}}
 \department  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://)}
-                {Department or School Name}}
-                {Department or School Name}}
+                {}}
+                {}}
 \DEPARTMENT  {\texorpdfstring{\href{Department or School Web Site URL Here (include http://)}
                 {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}
                 {DEPARTMENT OR SCHOOL NAME (IN BLOCK CAPITALS)}}

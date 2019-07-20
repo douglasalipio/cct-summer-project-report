@@ -1,14 +1,49 @@
 \chapter{System Analysis and Design}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at pulvinar nisi. Phasellus hendrerit, diam placerat interdum iaculis, mauris justo cursus risus, in viverra purus eros at ligula. Ut metus justo, consequat a tristique posuere, laoreet nec nibh. Etiam et scelerisque mauris. Phasellus vel massa magna. Ut non neque id tortor pharetra bibendum vitae sit amet nisi. Duis nec quam quam, sed euismod justo. Pellentesque eu tellus vitae ante tempus malesuada. Nunc accumsan, quam in congue consequat, lectus lectus dapibus erat, id aliquet urna neque at massa. Nulla facilisi. Morbi ullamcorper eleifend posuere. Donec libero leo, faucibus nec bibendum at, mattis et urna. Proin consectetur, nunc ut imperdiet lobortis, magna neque tincidunt lectus, id iaculis nisi justo id nibh. Pellentesque vel sem in erat vulputate faucibus molestie ut lorem.
 
-\section{A Section}
+\begin{figure}
+  \includegraphics[width=\linewidth]{use_case_diagram.png}
+  \caption{Use Case Diagram}
+  \label{fig:diagram}
+\end{figure}
 
-Quisque tristique urna in lorem laoreet at laoreet quam congue. Donec dolor turpis, blandit non imperdiet aliquet, blandit et felis. In lorem nisi, pretium sit amet vestibulum sed, tempus et sem. Proin non ante turpis. Nulla imperdiet fringilla convallis. Vivamus vel bibendum nisl. Pellentesque justo lectus, molestie vel luctus sed, lobortis in libero. Nulla facilisi. Aliquam erat volutpat. Suspendisse vitae nunc nunc. Sed aliquet est suscipit sapien rhoncus non adipiscing nibh consequat. Aliquam metus urna, faucibus eu vulputate non, luctus eu justo.
+The GarageApp is designed  to improve the user's experience to schedule appointment when they need to repair their vehicles. The application has a simple interaction which is log in into system, visualise the main screen and see the respective available dates and services. On the other hand, administrator of the system should be able to manage all appointments made by clients and allocate staff for each appointment.
 
-\subsection{A Subsection}
+\section{Functional Requirements for the Clients}
 
-Donec urna leo, vulputate vitae porta eu, vehicula blandit libero. Phasellus eget massa et leo condimentum mollis. Nullam molestie, justo at pellentesque vulputate, sapien velit ornare diam, nec gravida lacus augue non diam. Integer mattis lacus id libero ultrices sit amet mollis neque molestie. Integer ut leo eget mi volutpat congue. Vivamus sodales, turpis id venenatis placerat, tellus purus adipiscing magna, eu aliquam nibh dolor id nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed cursus convallis quam nec vehicula. Sed vulputate neque eget odio fringilla ac sodales urna feugiat.
+All requirements of the project is related to the client and administrator of the system. The most complex part comes from the client side. The model used to describe the requirements is based on Scrum methodology. Below all the most important requirements.
+
+\begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
+
+\item [Register vehicle] As user, I want to be able to register vehicle into system. The  basic information to make this action are registration number, make, model and mileage. Also, register max four vehicle. Vehicle types should be motorbikes, cars, small vans or small buses. If the vehicle are not this types, the system should reject the register showing a error message.
+
+\item [View receipts]As user, I want to be able to see all receipts for service booked. The screen should show a list of receipts, when user click  one item a detail screen should show information about the specific receipt. The information are customer name, mobile number, vehicle and service price. If there is no available receipts, show only a blank list. At least, user can print any receipts.
+
+\item [Book service] As user, I want to be able to book a service. The specific view should be compose by service type, date, vehicle and checkout button. The service  type must be annual service (€ 200), major service (€ 189), repair (€ 100), fault(€ 55). This feature is available only if user has internet connection, if not show a dialog error message.
+
+\item [Log in] As user, I want to be able to log in and log out to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown. After log out the system, it redirect user to log in screen.
+
+\item [Log in] As user, I want to be able to log in to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown.
+
+\end{description}
+
+\subsection{Functional Requirements for the administrator}
+
+The system administrator is responsible to manage all appointments and allocate staff for a specific service. So the functional requirements are describe bellow.
+
+\begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
+
+\item [Cancel appointment] As admin, I want to be able to cancel any appointment on the system. The screen should show a list with all appointment and a confirmation/cancel button. If the administrator cancel it, the respective user must receiver a notification with the following message: "Unfortunately, your appointment [dd/mm/yyyy] was cancelled by the administrator. Would you like to make another one?".
+
+\item [Allocate staff for a service]As admin, I want to be able to have a screen with all available staff. After click specific staff, another screen should show all appointments that the administrator can allocate the staff for the selected service.  After that action, the user must receiver a notification with the following message: "Congratulations! Your [service type] was confirm successfully".
+
+\item [Book service] As user, I want to be able to book a service. The specific view should be compose by service type, date, vehicle and checkout button. The service  type must be annual service (€ 200), major service (€ 189), repair (€ 100), fault(€ 55). This feature is available only if user has internet connection, if not show a dialog error message.
+
+\item [Log in] As user, I want to be able to log in and log out to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown. After log out the system, it redirect user to log in screen.
+
+\item [Log in] As user, I want to be able to log in to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown.
+
+\end{description}
 
 \section{Another Section}
 
