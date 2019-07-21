@@ -9,7 +9,7 @@
 
 The GarageApp is designed  to improve the user's experience to schedule appointment when they need to repair their vehicles. The application has a simple interaction which is log in into system, visualise the main screen and see the respective available dates and services. On the other hand, administrator of the system should be able to manage all appointments made by clients and allocate staff for each appointment.
 
-\section{Functional Requirements for the Clients}
+\section{Functional Requirements for customers}
 
 All requirements of the project is related to the client and administrator of the system. The most complex part comes from the client side. The model used to describe the requirements is based on Scrum methodology. Below all the most important requirements.
 
@@ -22,11 +22,20 @@ All requirements of the project is related to the client and administrator of th
 \item [Book service] As user, I want to be able to book a service. The specific view should be compose by service type, date, vehicle and checkout button. The service  type must be annual service (€ 200), major service (€ 189), repair (€ 100), fault(€ 55). This feature is available only if user has internet connection, if not show a dialog error message.
 
 \item [Log in] As user, I want to be able to log in and log out to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown. After log out the system, it redirect user to log in screen.
-
 \end{description}
-
 \newpage
-\section{Functional Requirements for the administrator}
+\subsection{Activity Diagram for customers}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{client_activity_diagram.png}
+    \caption{Activity Diagram}
+    \label{fig:mesh2}
+\end{figure}
+
+The activity diagram represent how is the workflow of the project. After log in into system, a bottom menu is showing with the main feature. These are booking a service, view receipts and register a vehicle. The server side is responsible to process those data and send a success or error response.
+
+\section{Functional Requirements for administrator}
 
 The system administrator is responsible to manage all appointments and allocate staff for a specific service. So the functional requirements are describe bellow.
 
@@ -41,3 +50,35 @@ The system administrator is responsible to manage all appointments and allocate 
 \item [Log in] As admin, I want to be able to log in and log out to the system. The screen should  show an email and password fields. If internet connection is available then user show the main screen, otherwise a dialog error message must be shown. After log out the system, it redirect user to log in screen.
 
 \end{description}
+\newpage
+\subsection{Activity Diagram for administrator}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{admin_activity_diagram.png}
+    \caption{Activity Diagram}
+    \label{fig:mesh1}
+\end{figure}
+
+As you can see in the figure \ref{fig:mesh1}, the activity diagram represents the workflow for the administrator of the system. Basically, there are three main feature such as  view staff, allocate stuff for a service and cancel any appointment available. When an appointment is cancelled, the client should receiver a notification.
+
+\section{Screens designs}
+
+****IN PROGRESS SECTION
+
+\begin{figure}[h!]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{main_screen.jpg}
+    \caption{Main screen for clients}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{book_service_screen.jpg}
+    \caption{Book a service screen}
+  \end{minipage}
+\end{figure}
+
+\section{Data Design}
+
+****IN PROGRESS SECTION
